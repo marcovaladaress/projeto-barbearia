@@ -42,11 +42,12 @@ i {
 
 .header-button {
     border: 1px solid $white-normal;
-    padding: 8px 24px;
+    padding: 8px 12px;
     border-radius: 4px;
     color: $white-normal;
     background-color: transparent;
     transition: backgorund-color 0.8s;
+    
 }
 
 .header-button:hover {
@@ -59,6 +60,9 @@ i {
     align-items: center;
     justify-content: center;
     margin-top: 16px;
+    width: 110px;
+  
+   
 }
 
 @media screen and (max-width: 768px){
@@ -84,3 +88,4 @@ i {
         display: none;
     }
 }
+
